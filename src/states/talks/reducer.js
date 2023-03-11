@@ -25,3 +25,5 @@ function talksReducer(talks = [], action = {}) {
       return talks;
   }
 }
+
+export default talksReducer;
