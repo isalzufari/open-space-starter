@@ -41,6 +41,7 @@ function asyncSetAuthUser({ id, password }) {
 }
 
 function asyncUnsetAuthUser() {
+  // console.log()
   return (dispatch) => {
     dispatch(unsetAuthUserActionCreator());
     api.putAccessToken('');
