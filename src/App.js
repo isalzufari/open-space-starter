@@ -26,8 +26,7 @@ function App() {
 
   const onSignOut = () => {
     // @TODO: dispatch async action to sign out
-    console.log('onSignOut');
-    dispatch(asyncUnsetAuthUser);
+    dispatch(asyncUnsetAuthUser());
   };
 
   if (isPreload) {
